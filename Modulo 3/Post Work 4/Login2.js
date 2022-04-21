@@ -2,7 +2,7 @@ const users = [{email: "myemail@mail.com", password: "securePassword", counter: 
 
 
 const login = (userCredentials) => {
-    /*for (let i = 0; i < users.length; i++) {
+    for (let i = 0; i < users.length; i++) {
         
         if (userCredentials.email === users[i].email && userCredentials.password === users[i].password) {
             
@@ -21,9 +21,9 @@ const login = (userCredentials) => {
             return "Usuario no registrado";
         }
 
-    }*/
+    }
 
-    if(counter < 3){
+    /*if(counter < 3){
         for (let i = 0; i < users.length; i++) {
             if (userCredentials.email === users[0].email){
                 if(userCredentials.password === users[0].password) {
@@ -47,7 +47,7 @@ const login = (userCredentials) => {
 
 
 
-}
+}*/
 
 const getToken = (userCredentials) => {
     for (let i = 0; i < users.length; i++) {
